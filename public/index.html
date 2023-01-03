@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./Carousel/css/owl.carousel.css">
+  <link rel="stylesheet" href="./Carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +34,13 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>React App21342</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +50,737 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+  <div class="preview_header">
+    <div class="logo">
+      <a href="#">Envato Market</a>
+    </div>
+    <div class="preview_right">
+      <div class="buy_now">
+        <a href="#">Buy now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="navbar_container">
+      <a href="#" class="logo_home">
+        <img src="http://crucio.riccardoborchi.it/wp-content/uploads/2017/05/logo-1.png" alt="CRUCIO">
+
+      </a>
+      <div id="main_menu" class="main_menu">
+        <iconify-icon icon="ic:outline-menu"></iconify-icon>
+      </div>
+      <div class="main_navbar">
+        <ul>
+          <li>
+            <a href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">SERVICES</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#portf">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="home" class="home" style="z-index: -1;">
+    <canvas id="reactive-bg-canvas"></canvas>
+    <div class="row text-center">
+      <h1>CRUCIO</h1>
+      <hr>
+      <h2>POWERFUL WEBSITES</h2>
+    </div>
+    <div class="text-center">
+      <a href="#about" class="scroll-down">
+        <!-- <iconify-icon icon="ic:baseline-keyboard-arrow-down"></iconify-icon> -->
+      </a>
+    </div>
+  </div>
+  <div id="about" class="about">
+    <div class="about_text">
+      <div class="section-content text-center">
+
+        <h2>WELCOME TO <strong class="color">CRUCIO</strong></h2>
+        <h3>WE CREATE AWESOME WEBSITES</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum
+          dolore
+          eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui
+          officia
+          deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+    <div class="about_main">
+      <div class="about_main_cl" style="background-color:  #ad00ff;">
+        <div class="content_text">
+          <h3>RESPONSIVE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquid ex ea commodi consequat.</p>
+        </div>
+      </div>
+      <div class="about_main_cl" style="background-color: #8200bf;">
+        <div class="content_text">
+          <h3>CUSTOMIZABLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquid ex ea commodi consequat.</p>
+        </div>
+      </div>
+      <div class="about_main_cl" style="background-color: #56007f;">
+        <div class="content_text">
+          <h3>MODERN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquid ex ea commodi consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services">
+    <div class="about_text">
+      <div class="section-content text-center">
+
+        <h2>SERVICES</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisci elit, sed eiusmod tempor
+          incidunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris
+          nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in
+          <strong>voluptate</strong>
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non
+          proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+    <div class="serv_main">
+      <div class="serv_content ">
+        <div class="serv_icon">
+          <ion-icon name="desktop-outline"></ion-icon>
+        </div>
+        <div class="serv_text">
+          <h4>WEB DESIGN</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:albums"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>BRAND DESIGN</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:apps"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>UI/UX DESIGN</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:color-palette"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>GRAPHIC DESIGN</h4>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="serv_main">
+      <div class="serv_content ">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:camera-sharp"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>PHOTOGRAPHY</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:videocam-sharp"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>VIDEO EDITING</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:pulse"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>DATA ANALYSIS</h4>
+        </div>
+      </div>
+      <div class="serv_content">
+        <div class="serv_icon">
+          <iconify-icon icon="ion:person-sharp"></iconify-icon>
+        </div>
+        <div class="serv_text">
+          <h4>CLIENT ASSISTANCE</h4>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="serv_banner">
+      <div class="serv_banner_main text-center ">
+        <h2 class="animate__animated wow animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">WE
+          CREATE
+          <strong>AWESOME</strong> PROJECTS
+        </h2>
+        <a href="#" class="animate__animated wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay="0.5s">GET
+          STARTED</a>
+      </div>
+    </div>
+  </div>
+  <div id="team" class="team">
+    <div class="about_text">
+      <div class="section-content text-center">
+
+        <h2>OUR TEAM</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="img_team">
+      <div class="img_team_main animate__animated wow animate__fadeInLeft" data-wow-duration="1s">
+        <div class="img_team_content">
+          <img src="./images/team1.jpg" alt="">
+          <div class="mask">
+            <h2>SAMANTA L.</h2>
+            <p class="">Architect</p>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:facebook-box-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:twitter-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ph:instagram-logo-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:linkedin-box-fill"></iconify-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="img_team_main animate__animated wow animate__fadeInDown" data-wow-duration="1s">
+        <div class="img_team_content">
+          <img src="./images/team2.jpg" alt="">
+          <div class="mask">
+            <h2>SAMANTA L.</h2>
+            <p class="">Architect</p>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:facebook-box-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:twitter-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ph:instagram-logo-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:linkedin-box-fill"></iconify-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="img_team_main animate__animated wow animate__fadeInRight" data-wow-duration="1s">
+        <div class="img_team_content">
+          <img src="./images/team3.jpg" alt="">
+          <div class="mask">
+            <h2>SAMANTA L.</h2>
+            <p class="">Architect</p>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:facebook-box-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:twitter-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ph:instagram-logo-fill"></iconify-icon>
+            </a>
+            <a href="#" class="info">
+              <iconify-icon icon="ri:linkedin-box-fill"></iconify-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="serv_banner">
+      <div class="serv_banner_main text-center">
+        <div class="number_banner">
+          <h2 class="countTo   " data-to="150" data-from="0" data-speed="1500">150</h2>
+          <h3>Clients</h3>
+        </div>
+        <div class="number_banner">
+          <h2 class="countTo   " data-to="620" data-from="0" data-speed="1500">620</h2>
+          <h3>Projects</h3>
+        </div>
+        <div class="number_banner">
+          <h2 class="countTo  " data-to="25" data-from="0" data-speed="1500">25</h2>
+          <h3>Awards</h3>
+        </div>
+        <div class="number_banner wow animate__animated">
+          <h2 class="countTo " data-to="940" data-from="0" data-speed="1500">940</h2>
+          <h3>Coffee</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portf" class="portf">
+    <div class="about_text">
+      <div class="section-content text-center">
+        <h2>OUR PORTFOLIO
+        </h2>
+        <hr>
+      </div>
+    </div>
+    <div class="title_portf text-center">
+      <a class="filter active" data-filter="*">All</a>
+      <a class="filter" data-filter="graphic">Graphic Design</a>
+      <a class="filter" data-filter="design">Web Design</a>
+      <a class="filter" data-filter="dev">Web Development</a>
+    </div>
+    <div class="all_item">
+      <div class="row_item">
+        <div class="item design">
+          <img src="./images/work1.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item dev">
+          <img src="./images/work2.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #2">
+              <div class="work-item-info">
+                <h3>Project #2</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item graphic">
+          <img src="./images/work3.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item design">
+          <img src="./images/work4.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item graphic">
+          <img src="./images/work5.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item dev">
+          <img src="./images/work6.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item dev">
+          <img src="./images/work7.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item design">
+          <img src="./images/work8.jpg" alt="">
+          <div class="image-overlay">
+            <a href="https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg" class="media-popup"
+              title="Project #1">
+              <div class="work-item-info">
+                <h3>Project #1</h3>
+                <p>Project Description</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="crucio-purchase section text-center">
+      <div class="section-content ">
+        <button class="btn load-more">Load More</button>
+      </div>
+    </div>
+    <div class="newsletter">
+      <div class="content_news text-center">
+        <h3 class="animate__animated wow animate__fadeInDown" data-wow-duration="1s">Subscribe To Our Newsletter
+        </h3>
+        <div class="ip_content">
+          <form action="">
+            <input class="animate__animated wow animate__fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s"
+              type="text" placeholder="Enter your email...">
+            <br>
+            <button type="submit " class="animate__animated wow animate__fadeInUp" data-wow-duration="1s"
+              data-wow-delay="0.5s">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="serv_banner">
+      <div class="serv_banner_main text-center">
+        <h2 class="animate__animated wow animate__fadeInLeft" data-wow-delay="0.5s">WANT TO DISCUSS YOUR NEW
+          PROJECT?</h2>
+        <a class="animate__animated wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" href="#">CONTACT
+          US</a>
+      </div>
+    </div>
+  </div>
+  <div id="blog" class="blog">
+    <div class="about_text">
+      <div class="section-content text-center">
+        <h2>TESTIMONIALS
+        </h2>
+        <hr>
+      </div>
+    </div>
+    <div class="main_blog">
+      <div id="slider" class="slider">
+        <div class="owl-carousel owl-theme">
+          <div class="item text-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="mini">- Jim P. -</p>
+          </div>
+          <div class="item text-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="mini">- Long N. -</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="blog_logo">
+      <div class="main_blog_logo">
+        <div class="item_logo">
+          <img src="./images/logo-client1-150x150.png" alt="">
+        </div>
+        <div class="item_logo">
+          <img src="./images/logo-client2-150x150.png" alt="">
+        </div>
+        <div class="item_logo">
+          <img src="./images/logo-client3-132x150.png" alt="">
+        </div>
+        <div class="item_logo">
+          <img src="./images/logo-client4.png" alt="">
+        </div>
+        <div class="item_logo">
+          <img src="./images/logo-client5.png" alt="">
+        </div>
+        <div class="item_logo">
+          <img src="./images/logo-client6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact">
+    <div class="about_text">
+      <div class="section-content text-center">
+        <h2>CONTACT
+        </h2>
+        <hr>
+      </div>
+    </div>
+    <div class="contact_title">
+      <div class="main_ct_title">
+        <div class="cl_title">
+          <h4>ADDRESS</h4>
+          <p>123 Street, New York (USA)</p>
+        </div>
+        <div class="cl_title">
+          <h4>PHONE</h4>
+          <p>+123 456 789</p>
+        </div>
+        <div class="cl_title">
+          <h4>EMAIL</h4>
+          <p>info@myemail.com</p>
+        </div>
+      </div>
+      <div class="form_contact">
+        <form action="">
+          <div class="row">
+            <input type="text" placeholder="Name*">
+            <input type="text" placeholder="Email*">
+          </div>
+
+          <textarea cols="40" rows="10" placeholder="Message*">
+
+                  </textarea>
+          <button type="submit">SEND </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="social">
+    <div class="logo_social text-center">
+      <img src="./images/logo-1.png" alt="">
+    </div>
+    <div class="all_social">
+      <a href="#" class="info">
+        <iconify-icon icon="ri:facebook-box-fill"></iconify-icon>
+      </a>
+      <a href="#" class="info">
+        <iconify-icon icon="ri:twitter-fill"></iconify-icon>
+      </a>
+      <a href="#" class="info">
+        <iconify-icon icon="ph:instagram-logo-fill"></iconify-icon>
+      </a>
+      <a href="#" class="info">
+        <iconify-icon icon="ri:linkedin-box-fill"></iconify-icon>
+      </a>
+      <a href="#" class="info">
+        <iconify-icon icon="ph:dribbble-logo-fill"></iconify-icon>
+      </a>
+      <a href="#" class="info">
+        <iconify-icon icon="icon-park-solid:youtobe"></iconify-icon>
+      </a>
+    </div>
+  </div>
+  <footer>
+    <div class="copyright">
+      <p>© 2017. Crucio. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <div class="back-to-top" style="display: block;">
+    <a href="#top">
+      <iconify-icon icon="material-symbols:keyboard-arrow-up"></iconify-icon>
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+    integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenLite.min.js"></script>
+  <script src="magic-canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./Carousel/js/owl.carousel.js"></script>
+  <script src="./Carousel/js/owl.carousel.min.js"></script>
+  <script src="./jquery.countTo.js"></script>
+  <script>
+    var win = $(window);
+    var doc = $(document);
+    var magicCanvas = $.magicCanvas;
+    slideIndex = 0
+    main_menu = document.getElementById('main_menu')
+    arr_img = [
+      "url('./images/slider1.jpg')",
+      "url('./images/slider2.jpg')",
+      "url('./images/slider3.jpg')"
+
+    ]
+    check_canvas()
+    setInterval(autoSlide, 15000);
+    toggleNavbar();
+    new WOW().init();
+    win.on('scroll', function () {
+      counters();
+      if (win.width() > 1199) {
+        if (doc.scrollTop() > (win.height() / 2)) {
+          $('.navbar').addClass('navbar_scroll')
+        } else {
+          $('.navbar').removeClass('navbar_scroll')
+        }
+      }
+    });
+    var sectionIds = $('.main_navbar ul li a')
+    $(document).scroll(function () {
+      sectionIds.each(function () {
+        // name href
+        var container = $(this).attr('href');
+        //
+        var containerOffset = $(container).offset().top;
+        // console.log(container + containerOffset)
+        var containerHeight = $(container).outerHeight();
+        var containerBottom = containerOffset + containerHeight;
+        var scrollPosition = $(document).scrollTop();
+
+        if (scrollPosition < containerBottom - 20 && scrollPosition >= containerOffset - 20) {
+          $(this).addClass('active');
+        } else {
+          $(this).removeClass('active');
+        }
+
+
+      });
+    });
+    $('.filter').click(function () {
+      data_filter = $(this).attr("data-filter")
+      $('.filter').removeClass('active')
+      $(this).addClass('active')
+      check_item(data_filter)
+    })
+
+    function check_item(data_filter) {
+      if (data_filter == "*") {
+        $('.item').fadeIn()
+      } else {
+        $('.item').each(function () {
+          $(this).fadeOut(100)
+          if ($(this).hasClass(data_filter)) {
+            $(this).fadeIn(300)
+          }
+        })
+      }
+      $('.crucio-purchase').hide()
+    }
+
+
+    win.on('resize', function () {
+      toggleNavbar();
+      check_canvas()
+    });
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      items: 1,
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 1000
+
+    })
+
+    main_menu.addEventListener("click", function () {
+      if ($('.main_navbar').first().is(":hidden")) {
+        $('.main_navbar').fadeIn("fast")
+
+      } else {
+        $('.main_navbar').hide()
+      }
+    })
+
+
+
+    function autoSlide() {
+      // console.log(slideIndex)
+      url_img = arr_img[slideIndex]
+      slideIndex++;
+      // console.log(slideIndex)
+      if (slideIndex >= arr_img.length) {
+        slideIndex = 0
+      }
+      $('#home').css('background-image', url_img).fadeIn('fast');
+    }
+
+    function check_canvas() {
+      if (win.width() > 1199) {
+        $('#reactive-bg-canvas').css("display", "block");
+        if ($('#home').length > 0) {
+          magicCanvas.draw({
+            type: "random-move",
+            zIndex: -2,
+            rgb: function (circlePos) {
+              var px = circlePos.x;
+              var py = circlePos.y;
+
+              return {
+                r: parseInt(173),
+                g: parseInt(0),
+                b: 255
+              };
+            }
+          });
+
+        }
+      } else {
+        $('#reactive-bg-canvas').css("display", "none");
+      }
+    }
+    var counters = function () {
+      $(".countTo").not('.animate__animated').each(function () {
+        if ($(window).scrollTop() >= $(this).offset().top - $(window).height() * 0.7) {
+          $(this).addClass('animate__animated').countTo();
+        }
+      });
+    }
+
+    function toggleNavbar() {
+      if ((win.width() > 1199) && (doc.scrollTop() <= win.height())) {
+        $('.navbar').removeClass('navbar_scroll')
+      } else {
+        $('.navbar').addClass('navbar_scroll')
+      }
+    }
+  </script>
+</body>
+
 </html>
